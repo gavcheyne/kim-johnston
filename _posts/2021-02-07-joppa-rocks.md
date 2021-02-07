@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gallery
 title: "Joppa Rocks"
 date: 2021-02-07 12:20:00 -0000
 image: joppa-rocks.jpg
