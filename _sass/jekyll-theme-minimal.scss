@@ -2,7 +2,11 @@
 @import "rouge-github";
 
 body {
-  background-color: yellow;
+  background-color: grey;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/kim-landscape.jpg);
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
