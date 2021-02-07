@@ -1,6 +1,10 @@
 @import "fonts";
 @import "rouge-github";
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: grey;
   background-size: cover;
