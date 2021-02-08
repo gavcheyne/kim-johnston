@@ -3,6 +3,7 @@
 
 html, body {
   height: 100%;
+  margin: 0;
 }
 
 body {
@@ -123,7 +124,7 @@ header {
 }
 
 section {
-  //padding-bottom:50px;
+  background-color: #c2ccd8;
 }
 
 small {
@@ -150,10 +151,6 @@ footer {
 
   header, section, footer {
     padding: 2em calc((100% - 900px) / 2);
-  }
-
-  section {
-    background-color: silver;
   }
 
   header a small {
