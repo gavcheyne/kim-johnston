@@ -113,18 +113,17 @@ img {
   max-width:100%;
 }
 
+header, section, footer {
+  padding: 50px 15px;
+}
+
 header {
   height: 100vh;
-  //width:270px;
-  //float:left;
-  //position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 section {
-  //width:500px;
-  //float:right;
-  padding-bottom:50px;
+  //padding-bottom:50px;
 }
 
 small {
@@ -142,7 +141,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (min-width: 960px) {
 
   div.wrapper {
     //width:auto;
@@ -150,18 +149,11 @@ footer {
   }
 
   header, section, footer {
-    float:none;
+    padding: calc((100% - 500) / 2) 2em;
   }
 
   header {
     //padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
   }
 
   header a small {
