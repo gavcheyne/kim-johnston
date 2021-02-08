@@ -28,7 +28,7 @@
 
         <ul class="art-list">
         {% for post in site.posts %}
-          <li style="background-image: url({{ "/assets/img/" | relative_url }}{{ post.image }})">
+          <li style="background-image: url({{ post.image | relative_url }})">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
