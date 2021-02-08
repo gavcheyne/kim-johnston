@@ -149,11 +149,11 @@ footer {
   }
 
   header, section, footer {
-    padding: calc((100% - 500) / 2) 2em;
+    padding: 2em calc((100% - 900px) / 2);
   }
 
-  header {
-    //padding-right:320px;
+  section {
+    background-color: silver;
   }
 
   header a small {
