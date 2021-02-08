@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-GB" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,11 +26,10 @@
 
       {{ content }}
 
-        <ul>
+        <ul class="art-list">
         {% for post in site.posts %}
-          <li>
+          <li style="background-image: url({{ "/assets/img/" | relative_url }}{{ post.image }})">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <img src="{{ "/assets/img/" | relative_url }}{{ post.image }}" alt="Art by {{ site.author }}: {{ post.title }}">
           </li>
         {% endfor %}
         </ul>
