@@ -2,7 +2,7 @@
 layout: gallery
 title: "Landscape with orange horizon"
 image: /assets/img/kim-landscape.jpg
-tags: Portobello Joppa art
+tags: Portobello Joppa beach
 price: £1000
 ---
 
