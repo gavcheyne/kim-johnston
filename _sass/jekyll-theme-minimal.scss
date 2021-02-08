@@ -2,6 +2,8 @@
 @import "rouge-github";
 
 $content-width-max: 800px;
+$section-pad-top: 30px;
+$section-pad-bottom: 20px;
 
 html, body {
   height: 100%;
@@ -117,11 +119,14 @@ img {
 }
 
 header, section, footer {
-  padding: 50px 15px;
+  padding-top: $section-pad-top;
+  padding-right: 15px;
+  padding-bottom: $section-pad-bottom;
+  padding-left: 15px;
 }
 
 header {
-  height: 100vh;
+  height: calc(100vh - #{$section-pad-bottom} - #{$section-pad-top});
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -147,12 +152,12 @@ footer {
 @media print, screen and (min-width: $content-width-max) {
 
   div.wrapper {
-    //width:auto;
     margin:0;
   }
 
   header, section, footer {
-    padding: 2em calc((100% - #{$content-width-max}) / 2);
+    padding-right: calc((100% - #{$content-width-max}) / 2);
+    padding-left: calc((100% - #{$content-width-max}) / 2);
   }
 
   header a small {
