@@ -1,0 +1,8 @@
+---
+layout: gallery
+title: "Chair"
+image: /assets/img/comfy-chair.jpg
+tags: art 
+---
+
+A comfy chair
