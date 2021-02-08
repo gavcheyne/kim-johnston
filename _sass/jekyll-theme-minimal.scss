@@ -152,7 +152,7 @@ footer {
   }
 
   header, section, footer {
-    padding: 2em calc((100% - $content-width-max) / 2);
+    padding: 2em calc((100% - #{$content-width-max)} / 2);
   }
 
   header a small {
