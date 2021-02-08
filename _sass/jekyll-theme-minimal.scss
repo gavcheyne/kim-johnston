@@ -149,7 +149,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (min-width: $content-width-max) {
+@media print, screen and (min-width: #{$content-width-max}) {
 
   div.wrapper {
     margin:0;
