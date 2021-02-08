@@ -30,6 +30,7 @@
         {% for post in site.posts %}
           <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <img src="{{ "/assets/img/" | relative_url }}{{ post.image }}" alt="Art by {{ site.author }}: {{ post.title }}">
           </li>
         {% endfor %}
         </ul>
