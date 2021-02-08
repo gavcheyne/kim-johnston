@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: "Joppa Rocks"
-image: image: /assets/img/joppa-rocks.jpg
+image: /assets/img/joppa-rocks.jpg
 tags: art Portobello Joppa
 ---
 
