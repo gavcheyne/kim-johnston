@@ -18,7 +18,7 @@ body {
   background-image: url(../img/kim-landscape.jpg);
   background-attachment: fixed;
   padding:0;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 Georgia, Times, "Times New Roman", serif;
   color:#727272;
   font-weight:400;
 }
@@ -147,7 +147,6 @@ footer {
 }
 
 ul.art-list {
-  display: block;
   list-style-type: none;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -157,6 +156,8 @@ ul.art-list {
     display: block;
     height: 150px;
     width: 150px;
+    background-position: center;
+    background-size: 200%;
   }
 }
 
