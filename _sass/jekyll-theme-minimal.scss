@@ -1,6 +1,8 @@
 @import "fonts";
 @import "rouge-github";
 
+$content-width-max: 800px;
+
 html, body {
   height: 100%;
   margin: 0;
@@ -142,7 +144,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (min-width: 960px) {
+@media print, screen and (min-width: $content-width-max) {
 
   div.wrapper {
     //width:auto;
@@ -150,7 +152,7 @@ footer {
   }
 
   header, section, footer {
-    padding: 2em calc((100% - 900px) / 2);
+    padding: 2em calc((100% - $content-width-max) / 2);
   }
 
   header a small {
