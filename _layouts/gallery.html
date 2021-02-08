@@ -8,7 +8,7 @@ layout: default
 <p class="view">by {{ page.author | default: site.author }}</p>
 
 {% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt>
+  <a href="{{ page.image | relative_url }}" target="_blank"><img src="{{ page.image | relative_url }}" alt="{{ page.title }}"></a>
 {% endif %}
 
 {{content}}
