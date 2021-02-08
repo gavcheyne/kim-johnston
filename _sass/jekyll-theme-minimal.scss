@@ -153,8 +153,11 @@ ul.art-list {
   margin-block-end: 0px;
   padding-inline-start: 0px;
   
-  height: 150px;
-  width: 150px;
+  li {
+    display: block;
+    height: 150px;
+    width: 150px;
+  }
 }
 
 @media print, screen and (min-width: #{$content-width-max}) {
