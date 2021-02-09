@@ -62,7 +62,6 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
 }
 
 a small {
@@ -164,7 +163,17 @@ ul.art-list {
     height: 150px;
     width: 150px;
     background-position: center;
-    background-size: 200%;
+    background-size: 146%;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+
+    span {
+      padding: 9px;
+      background-color: rgba(58, 41, 41, 0.418);
+    }
   }
 }
 
