@@ -11,16 +11,27 @@ html, body {
 }
 
 body {
-  background-color: #d6d0ce;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url(../img/kim-landscape.jpg);
-  background-attachment: fixed;
+  background-color: #a0b1bd;
   padding:0;
   font: 14px/1.5 Georgia, Times, "Times New Roman", serif;
-  color:#727272;
+  color:#363030;
   font-weight:400;
+}
+
+body:after{
+  content:"";
+  position:fixed; /* stretch a fixed position to the whole screen */
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-1; /* needed to keep in the background */
+  background: url(../img/kim-landscape.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
