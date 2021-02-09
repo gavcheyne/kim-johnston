@@ -5,16 +5,12 @@ $content-width-max: 800px;
 $section-pad-top: 30px;
 $section-pad-bottom: 20px;
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
-  background-color: #a0b1bd;
+  margin: 0;
   padding:0;
-  font: 14px/1.5 Georgia, Times, "Times New Roman", serif;
+  background-color: #a0b1bd;
   color:#363030;
+  font: 14px/1.5 Georgia, Times, "Times New Roman", serif;
   font-weight:400;
 }
 
