@@ -5,4 +5,4 @@ image: /assets/img/seascape-tall.jpg
 tags: Portobello
 ---
 
-The sea, paited in acrylic.
+The sea, painted in acrylic.
