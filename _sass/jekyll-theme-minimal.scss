@@ -168,6 +168,14 @@ footer {
   margin: var(--gap) 0 0 var(--gap);
 }
 
+.art-list > li {
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ul.art-list {
   list-style-type: none;
   margin-block-start: 0px;
@@ -188,7 +196,7 @@ ul.art-list {
 
     span {
       display: block;
-      padding: 9px;
+      padding: 3px;
       background-color: rgba(58, 41, 41, 0.418);
     }
   }
