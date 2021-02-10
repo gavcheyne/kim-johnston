@@ -1,11 +1,13 @@
 @import "fonts";
 @import "rouge-github";
 
-$content-width-max: 800px;
-$section-pad-top: 30px;
-$section-pad-bottom: 20px;
+$content-width-max: 1200px;
+$section-pad-top: 3rem;
+$section-pad-bottom: 3rem;
+$margin-side: 2rem;
+$margin-side-big: 3rem;
 
-$art-gap: 30px;
+$art-gap: 2.5rem;
 
 body {
   margin: 0;
@@ -125,9 +127,9 @@ img {
 
 header, section, footer {
   padding-top: $section-pad-top;
-  padding-right: 15px;
+  padding-right: $margin-side;
   padding-bottom: $section-pad-bottom;
-  padding-left: 15px;
+  padding-left: $margin-side;
 }
 
 header {
@@ -198,7 +200,7 @@ ul.art-list {
   }
 }
 
-@media print, screen and (min-width: #{$content-width-max}) {
+@media print, screen and (min-width: #{$content-width-max - $margin-side - $margin-side}) {
 
   header, section, footer {
     padding-right: calc((100% - #{$content-width-max}) / 2);
