@@ -152,6 +152,22 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+/* Gallery flex */
+// see https://coryrylan.com/blog/css-gap-space-with-flexbox
+
+/* Emulate Gap Support with Flexbox and Margins */
+.art-list {
+  --gap: 12px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+  width: calc(100% + var(--gap));
+}
+
+.art-list > * {
+  margin: var(--gap) 0 0 var(--gap);
+}
+
 ul.art-list {
   list-style-type: none;
   margin-block-start: 0px;
@@ -171,6 +187,7 @@ ul.art-list {
     height: 100%;
 
     span {
+      display: block;
       padding: 9px;
       background-color: rgba(58, 41, 41, 0.418);
     }
