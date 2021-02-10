@@ -200,7 +200,7 @@ ul.art-list {
   }
 }
 
-@media print, screen and (min-width: #{$content-width-max - $margin-side - $margin-side}) {
+@media print, screen and (min-width: #{$content-width-max}) {
 
   header, section, footer {
     padding-right: calc((100% - #{$content-width-max}) / 2);
