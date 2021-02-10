@@ -157,8 +157,8 @@ footer {
 
 /* Emulate Gap Support with Flexbox and Margins */
 .art-list {
-  --gap: 12px;
-  display: inline-flex;
+  --gap: 23px;
+  display: flex;
   flex-wrap: wrap;
   margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
   width: calc(100% + var(--gap));
@@ -169,11 +169,8 @@ footer {
 }
 
 .art-list > li {
-  width: 3.125rem;
   height: 3.125rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 1 200px;
 }
 
 ul.art-list {
