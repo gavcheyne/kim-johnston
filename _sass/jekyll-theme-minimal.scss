@@ -5,6 +5,8 @@ $content-width-max: 800px;
 $section-pad-top: 30px;
 $section-pad-bottom: 20px;
 
+$art-gap: 30px;
+
 body {
   margin: 0;
   padding:0;
@@ -157,7 +159,7 @@ footer {
 
 /* Emulate Gap Support with Flexbox and Margins */
 .art-list {
-  --gap: 23px;
+  --gap: $art-gap;
   display: flex;
   flex-wrap: wrap;
   margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
@@ -169,8 +171,8 @@ footer {
 }
 
 .art-list > li {
-  height: 3.125rem;
-  flex: 1 200px;
+  height: 12rem;
+  flex: 1 12rem;
 }
 
 ul.art-list {
@@ -180,9 +182,6 @@ ul.art-list {
   padding-inline-start: 0px;
   
   li {
-    //display: block;
-    //height: 150px;
-    //width: 150px;
     background-position: center;
     background-size: 146%;
   }
