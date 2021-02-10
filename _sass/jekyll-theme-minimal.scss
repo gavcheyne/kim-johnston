@@ -159,7 +159,7 @@ footer {
 
 /* Emulate Gap Support with Flexbox and Margins */
 .art-list {
-  --gap: $art-gap;
+  --gap: #{$art-gap};
   display: flex;
   flex-wrap: wrap;
   margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
